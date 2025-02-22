@@ -316,6 +316,7 @@ description.Position = UDim2.new(0.113333493, 150, 0, 10)
 			end
 		end
 	end)
+	end
  
 local uitab = {}
  
