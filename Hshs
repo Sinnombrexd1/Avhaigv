@@ -1,3 +1,5 @@
+local library = {}
+
 game.StarterGui:SetCore("SendNotification", {
     Icon = "rbxassetid://119807919776183";
     Title = "CapybaraScript", 
@@ -114,8 +116,6 @@ CapybaraScript.MouseButton1Down:connect(function()
     game:GetService("VirtualInputManager"):SendKeyEvent(true, 305, false, game)
     game:GetService("VirtualInputManager"):SendKeyEvent(false, 305, false, game)
 end)
-
-local library = {}
       
 function library:AddWindow(text, descriptionText, keybind)
     local bind = keybind or Enum.KeyCode.RightControl
@@ -1095,3 +1095,4 @@ end
               return main
           end
           return uitab
+      end
